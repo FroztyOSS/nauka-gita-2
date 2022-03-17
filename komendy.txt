@@ -1,0 +1,17 @@
+Komenda do wywołania html-validate:
+
+npm exec html-validate index.html
+
+Znalezione błędy
+
+C:\nauka-gita-2>npm exec html-validate index.html
+
+C:\nauka-gita-2\index.html
+   1:1   warning  Usage of deprecated rule "void"  deprecated-rule
+  34:88  error    Trailing whitespace              no-trailing-whitespace
+
+✖ 2 problems (1 error, 1 warning)
+
+More information:
+  https://html-validate.org/rules/deprecated-rule.html
+  https://html-validate.org/rules/no-trailing-whitespace.html
